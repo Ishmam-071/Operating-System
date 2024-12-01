@@ -10,6 +10,7 @@ int main()
     int bt[n], wt[n], rem_bt[n], tat[n];
     float total_wt = 0, total_tat = 0;
 
+
     cout<<"Process brust time: ";
     for (int i = 0; i < n; i++)
     {

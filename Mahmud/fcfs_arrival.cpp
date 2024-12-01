@@ -1,4 +1,4 @@
-#include <iostream>
+#include<bits/stdc++.h>
 #include <algorithm>
 using namespace std;
 
@@ -18,6 +18,7 @@ int main() {
     }
 
     // Sort processes by Arrival Time
+
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (at[j] > at[j + 1]) {
